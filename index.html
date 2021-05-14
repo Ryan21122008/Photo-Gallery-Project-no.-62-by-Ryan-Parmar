@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title> Photo Gallery </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1> Photo Gallery </h1>
+    <h3> Football Clubs' Logos in Europe </h3>
+
+    <h3> Slide Gallery </h3>
+    <div class="container">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive" src="https://www.clipartmax.com/png/small/270-2707981_atletico-madrid-logo-old-today-football-tips-win.png">
+                        <div class="carousel-content">
+                            <h3> Atletico de Madrid </h3>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="Logo_inter_muggiani_1908.jpg">
+                        <div class="carousel-content">
+                            <h3> Inter Milan </h3>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="chelsea.png">
+                        <div class="carousel-content">
+                            <h3> Chelsea FC </h3>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="fc%20barcelona.png">
+                        <div class="carousel-content">
+                            <h3> FC Barcelona </h3>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="fc%20bayern.png">
+                        <div class="carousel-content">
+                            <h3> FC Bayern Munich </h3>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="liverpool.png">
+                        <div class="carousel-content">
+                            <h3> Liverpool FC </h3>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"> </li>
+                <li data-target="#mycarousel" data-slide-to="1"> </li>
+                <li data-target="#mycarousel" data-slide-to="2"> </li>
+                <li data-target="#mycarousel" data-slide-to="3"> </li>
+                <li data-target="#mycarousel" data-slide-to="4"> </li>
+                <li data-target="#mycarousel" data-slide-to="5"> </li>
+            </ol>
+        </div>
+        <h3 id="grid"> Grid Gallery </h3>
+        <div class="row">
+            <div class="gridimg">
+            <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-5" src="https://www.clipartmax.com/png/small/270-2707981_atletico-madrid-logo-old-today-football-tips-win.png">
+            </div>
+            <div class="gridimg">
+            <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-5" src="Logo_inter_muggiani_1908.jpg">
+            </div>
+            <div class="gridimg">
+            <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-5" src="chelsea.png">
+            </div>
+            <div class="gridimg">
+            <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-5" src="fc%20barcelona.png">
+            </div>
+            <div class="gridimg">
+            <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-5" src="fc%20bayern.png">
+            </div>
+            <div class="gridimg">
+            <img class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-5" src="liverpool.png">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

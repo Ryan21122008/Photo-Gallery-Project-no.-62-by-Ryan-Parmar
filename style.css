@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#grid{
+    margin-top:50px;
+}
+.gridimg img {
+    width: 45%;
+    height: 300px;
+}
+ol{
+    background-color:black;
+}
